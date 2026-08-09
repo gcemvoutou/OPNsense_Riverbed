@@ -163,12 +163,13 @@ Restore web GUI access defaults: y
 * **Étape 2 : Vérification de la connectivité**
   * Tester la liaison réseau à l'aide d'un `ping` vers le pare-feu.
 
-<img src="images/10.png" alt="Ping" width="400">
+   <img src="images/10.png" alt="Ping" width="400">
 
 * **Étape 3 : Connexion à l'administration**
   * Ouvrir le navigateur et se connecter à l'interface d'administration via : `http://192.168.6.254`
 
-<img src="images/11.png" alt="Tableau de bord OPNsense après connexion réussie" width="400">
+   <img src="images/11.png" alt="Tableau de bord OPNsense après connexion réussie" width="400">
+   <img src="images/12.png" alt="Tableau de bord OPNsense après connexion réussie" width="400">
 
 
 ## Résultat
