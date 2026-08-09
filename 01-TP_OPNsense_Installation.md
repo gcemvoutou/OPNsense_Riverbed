@@ -137,6 +137,8 @@ IPv4 upstream gateway: [Entrée]
 IPv6 address: [Entrée]
 Enable DHCP server on LAN: n
 Restore web GUI access defaults: y
+```
+
 > **[NOTE]** Une fois ces étapes validées, la console confirme la fin de la configuration. Vous pouvez désormais accéder à l'interface d'administration depuis votre navigateur via : `http://192.168.6.254`.
 <!-- 📸 Capture à insérer ici : terminal console listant les IP WAN/LAN confirmées -->
 ![Confirmation des adresses IP configurées en console (WAN + LAN)](screenshots/06-config-ip-lan.png)
