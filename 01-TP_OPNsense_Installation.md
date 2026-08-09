@@ -28,13 +28,13 @@ Ce projet consiste à transformer une appliance réseau **Riverbed** (matériel 
 
 Téléchargement de l'image d'installation OPNsense au format série à ce lien https://opnsense.org/download/ (nécessaire car l'appliance ne dispose pas de sortie vidéo, uniquement d'un accès console série) 
 
-![Installation Opensense](images/1.png)
+<img src="images/1.png" alt="Installation Opensense" width="400">
 
 Et gravure sur clé USB avec **Rufus** (schéma de partition MBR, mode BIOS/UEFI-CSM).
 
 <!-- 📸 Capture à insérer ici : fenêtre Rufus pendant/avant la gravure de la clé USB -->
 
-![Config Rufus](images/2.png)
+<img src="images/2.png" alt="Config Rufus" width="400">
 
 ### 2. Connexion console au Riverbed
 
