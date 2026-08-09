@@ -121,7 +121,8 @@ Enter the Optional interface 1 name (or nothing if finished): [Entrée]
 Do you want to proceed? [y/N]: y
 ```
 
-![Conseil] Les options LAGGs (agrégation de liens) et VLANs sont ignorées ici pour conserver une topologie réseau standard et simplifiée.
+> [!TIP]
+>Les options LAGGs (agrégation de liens) et VLANs sont ignorées ici pour conserver une topologie réseau standard et simplifiée.
 
 ### 5.3 Configuration des adresses IP (Option 2)
 Cette étape définit l'identité réseau et les protocoles de communication du pare-feu.
