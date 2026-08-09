@@ -45,7 +45,12 @@ Et gravure sur clé USB avec **Rufus** en appliquant les paramètres suivants :
 
 ### 2. Connexion console au Riverbed
 
-Identification du port COM associé à la clé USB via le Gestionnaire de périphériques Windows (ex. : `USB Serial Port — COM4`), puis configuration d'une session série dans **PuTTY** :
+Identification du port COM associé à la clé USB via le Gestionnaire de périphériques Windows.
+
+<img src="images/2.png" alt="Config Rufus" width="400">, 
+
+Puis configuration d'une session série dans **PuTTY** :
+
 - Connection type : `Serial`
 - Serial line : `COM4` (port identifié précédemment)
 - Speed : `115200` bauds
