@@ -21,8 +21,8 @@ Création de trois règles sur l'interface LAN (`Firewall → Rules → LAN`), c
 
 **Pourquoi ne pas utiliser `any` comme port ?** Cela autoriserait l'intégralité du trafic et annulerait toute politique de sécurité. En appliquant le principe du moindre privilège, on n'ouvre que ce qui est strictement nécessaire.
 
-<!-- 📸 Capture à insérer ici : liste des règles LAN après création (DNS, HTTP, HTTPS) -->
-![Vue de la liste des règles LAN après création (DNS, HTTP, HTTPS)](screenshots/02-liste-regles-lan.png)
+Exemple de configuration pour le Port DNS 53
+![Vue de la liste des règles LAN après création (DNS, HTTP, HTTPS)](screenshots/02-liste-regles-lan.png)<img src="images/13.png" alt="Exemple Port 53" width="400">
 
 ## Exercice 2 — Bloquer l'accès du WLAN vers le LAN
 
