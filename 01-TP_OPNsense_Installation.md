@@ -106,6 +106,11 @@ Une fois le processus lancé, attendez la fin de la copie des fichiers. L'instal
 
 Une fois le système installé et redémarré, configuration en ligne de commande :
 
+Connexion à la console avec les identifiants par défaut pour accéder au menu de gestion :
+
+* **Login** : `root`
+* **Mot de passe** : `opnsense`
+
 **Assignation des interfaces (menu console, option 1)** :
 ```
 Do you want to configure LAGGs now? [y/N]: n
@@ -116,22 +121,23 @@ Enter the Optional interface 1 name (or nothing if finished): [Entrée]
 Do you want to proceed? [y/N]: y
 ```
 
-**Configuration IP du WAN (option 2, interface 2)** :
-- IPv4 via DHCP : `y`
-- IPv6 via DHCP6 : `y`
-- Activer l'interface web (passage HTTPS → HTTP) : `y`
+> **[NOTE]** Les options LAGGs (agrégation de liens) et VLANs sont ignorées ici pour conserver une topologie réseau standard et simplifiée.
 
-**Configuration IP du LAN (option 2, interface 1)** :
-- IPv4 via DHCP : `n`
-- Adresse IPv4 statique : `192.168.6.254`
-- Masque de sous-réseau (bit count, notation CIDR) : `24`
-- Passerelle : laissée vide (interface LAN)
-- IPv6 : `n`
-- Serveur DHCP sur le LAN : `n`
-- Restaurer les accès GUI par défaut : `y`
+### 5.3 Configuration des adresses IP (Option 2)
+Cette étape définit l'identité réseau et les protocoles de communication du pare-feu.
 
-À l'issue de cette étape, la console confirme l'accès à l'interface web via `http://192.168.6.254`.
+**Configuration du WAN (Internet) :**
+* **IPv4/IPv6 via DHCP** : `y` (Permet au pare-feu d'obtenir automatiquement une adresse IP publique fournie par votre FAI).
+* **Activer interface web (HTTP)** : `y` (Le passage en HTTP évite les blocages liés aux certificats auto-signés lors de la première configuration).
 
+**Configuration du LAN (Réseau Local) :**
+* **IPv4 Statique** : `192.168.6.254` (Il est impératif que le pare-feu possède une IP fixe pour servir de passerelle stable aux machines du réseau).
+* **Masque (CIDR)** : `24` (Définit la portée du réseau local).
+* **Passerelle** : Laissée vide (Le pare-feu est lui-même la passerelle pour les clients LAN).
+* **Serveur DHCP** : `n` (Nous désactivons cette option en console pour la configurer plus finement via l'interface web par la suite).
+* **Restaurer accès GUI** : `y` (Applique les changements aux accès d'administration).
+
+> **[NOTE]** Une fois ces étapes validées, la console confirme la fin de la configuration. Vous pouvez désormais accéder à l'interface d'administration depuis votre navigateur via : `http://192.168.6.254`.
 <!-- 📸 Capture à insérer ici : terminal console listant les IP WAN/LAN confirmées -->
 ![Confirmation des adresses IP configurées en console (WAN + LAN)](screenshots/06-config-ip-lan.png)
 
