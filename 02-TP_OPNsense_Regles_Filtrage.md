@@ -47,7 +47,6 @@ Avant de configurer la règle de filtrage, l'interface doit être correctement a
     1. Cliquez sur le nom de la nouvelle interface (généralement `OPT1`).
     2. Cochez la case **Enable Interface**.
     3. Dans le champ **Description**, remplacez `OPT1` par `WLAN`.
-    4. Cliquez sur **Save**, puis sur **Apply changes**.
        
 <img src="images/15.png" alt="Activer et renommer" width="400">
 
