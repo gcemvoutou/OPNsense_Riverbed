@@ -127,17 +127,16 @@ Ces configurations associent nos ports réseau physiques (`igb5` pour Internet e
 ### 5.2 Configuration des adresses IP (Option 2)
 Cette étape définit l'identité réseau et les protocoles de communication du pare-feu.
 
-**Configuration du WAN (Internet) :**
-* **IPv4/IPv6 via DHCP** : `y` *(Permet au pare-feu d'obtenir automatiquement une adresse IP publique).*
-* **Activer interface web (HTTP)** : `y` *(Le passage en HTTP évite les blocages liés aux certificats auto-signés lors de la première configuration).*
-
-**Configuration du LAN (Réseau Local) :**
-* **IPv4 Statique** : `192.168.6.254` *(Il est impératif que le pare-feu possède une IP fixe pour servir de passerelle aux machines du réseau).*
-* **Masque (CIDR)** : `24` *(Définit la portée du réseau local)*.
-* **Passerelle** : Laissée vide *(Le pare-feu est lui-même la passerelle pour les clients LAN)*.
-* **Serveur DHCP** : `n` *(Nous désactivons cette option en console pour la configurer plus finement via l'interface web par la suite).*
-* **Restaurer accès GUI** : `y` *(Autorise l'accès d'administration via interface web).*
-
+```text
+IPv4 via DHCP: y
+IPv6 via DHCP6: y
+Reconfigure web GUI HTTP access: y
+IPv4 address: 192.168.6.254
+IPv4 subnet bit count: 24
+IPv4 upstream gateway: [Entrée]
+IPv6 address: [Entrée]
+Enable DHCP server on LAN: n
+Restore web GUI access defaults: y
 > **[NOTE]** Une fois ces étapes validées, la console confirme la fin de la configuration. Vous pouvez désormais accéder à l'interface d'administration depuis votre navigateur via : `http://192.168.6.254`.
 <!-- 📸 Capture à insérer ici : terminal console listant les IP WAN/LAN confirmées -->
 ![Confirmation des adresses IP configurées en console (WAN + LAN)](screenshots/06-config-ip-lan.png)
