@@ -147,9 +147,10 @@ Restore web GUI access defaults: y
 >* **Pour le WAN (Internet)** : On demande au pare-feu de récupérer automatiquement une adresse IP et on active l'accès web en HTTP pour éviter les problèmes de certificats au début.
 > * **Pour le LAN (Réseau local)** : On fixe l'adresse IP du pare-feu à `192.168.6.254` pour qu'il serve de passerelle stable aux machines, on laisse le serveur DHCP désactivé pour le configurer plus tard via le web, et on s'assure de garder l'accès à l'interface d'administration.
 
-> **[NOTE]** Une fois ces étapes validées, la console confirme la fin de la configuration. Vous pouvez désormais accéder à l'interface d'administration depuis votre navigateur via : `http://192.168.6.254`.
-<!-- 📸 Capture à insérer ici : terminal console listant les IP WAN/LAN confirmées -->
-<img src="images/9.png" alt="Confirmation des adresses IP configurées en console (WAN + LAN)" width="300">
+>[NOTE]
+> Une fois ces étapes validées, la console confirme la fin de la configuration. On peut désormais accéder à l'interface d'administration depuis notre navigateur via : `http://192.168.6.254`.
+
+<img src="images/9.png" alt="Confirmation des adresses IP configurées en console (WAN + LAN)" width="400">
 
 ### 6. Accès à l'interface web
 
