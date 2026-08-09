@@ -139,7 +139,7 @@ Enable DHCP server on LAN: n
 Restore web GUI access defaults: y
 ```
 
-> **[IMPORTANT]** En résumé, voici ce que font ces configurations d'adresses IP :
+**[IMPORTANT]** En résumé, voici ce que font ces configurations d'adresses IP :
 > * **Pour le WAN (Internet)** : On demande au pare-feu de récupérer automatiquement une adresse IP et on active l'accès web en HTTP pour éviter les problèmes de certificats au début.
 > * **Pour le LAN (Réseau local)** : On fixe l'adresse IP du pare-feu à `192.168.6.254` pour qu'il serve de passerelle stable aux machines, on laisse le serveur DHCP désactivé pour le configurer plus tard via le web, et on s'assure de garder l'accès à l'interface d'administration.
 
