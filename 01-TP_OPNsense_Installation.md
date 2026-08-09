@@ -23,7 +23,6 @@ Ce projet consiste à transformer une appliance réseau **Riverbed** (matériel 
 - Image ISO d'OPNsense (version amd64, format série)
 
 ## Déroulé
----
 
 ### 1. Préparation de la clé USB bootable
 
