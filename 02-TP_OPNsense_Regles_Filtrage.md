@@ -25,6 +25,7 @@ La règle doit être créée sur l'interface **LAN** (`Firewall → Rules → LA
 * **Destination** : `any`
 * **Port de destination** : `53` (TCP/UDP)
 
+> [!IMPORTANT]
 > **Pourquoi ne pas utiliser `any` comme port ?** Cela autoriserait l'intégralité du trafic et annulerait toute politique de sécurité. En appliquant le principe du moindre privilège, on n'ouvre que ce qui est strictement nécessaire.
 
 ### Aperçu de la configuration
