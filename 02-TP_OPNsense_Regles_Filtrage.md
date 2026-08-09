@@ -13,16 +13,24 @@ Dans OPNsense, les règles de filtrage sont évaluées **de haut en bas** sur l'
 
 > Une règle se place toujours sur l'interface par laquelle le trafic **entre** dans le pare-feu : une règle sur l'interface LAN filtre le trafic provenant du LAN, une règle sur WLAN filtre le trafic provenant du Wi-Fi.
 
-## Exercice 1 — Autoriser DNS, HTTP et HTTPS depuis le LAN
+## Exercice 1 — Autoriser le port DNS (53) depuis le LAN
 
-**Objectif** : n'autoriser depuis le LAN que les protocoles essentiels à la navigation web (DNS/53, HTTP/80, HTTPS/443), tout le reste étant implicitement bloqué.
+**Objectif** : N'autoriser depuis le LAN que le protocole DNS essentiel à la résolution de noms, tout le reste étant implicitement bloqué[cite: 1].
 
-Création de trois règles sur l'interface LAN (`Firewall → Rules → LAN`), chacune en `Pass`, direction `in`, source `LAN network`, destination `any`, avec le port de destination correspondant à chaque protocole.
+### Procédure de configuration
+La règle doit être créée sur l'interface **LAN** (`Firewall → Rules → LAN`) avec les paramètres suivants[cite: 1] :
+* **Action** : `Pass` (Autoriser)[cite: 1]
+* **Direction** : `in`[cite: 1]
+* **Source** : `LAN network`[cite: 1]
+* **Destination** : `any`[cite: 1]
+* **Port de destination** : `53` (TCP/UDP)[cite: 1]
 
-**Pourquoi ne pas utiliser `any` comme port ?** Cela autoriserait l'intégralité du trafic et annulerait toute politique de sécurité. En appliquant le principe du moindre privilège, on n'ouvre que ce qui est strictement nécessaire.
+> **Pourquoi ne pas utiliser `any` comme port ?** Cela autoriserait l'intégralité du trafic et annulerait toute politique de sécurité. En appliquant le principe du moindre privilège, on n'ouvre que ce qui est strictement nécessaire[cite: 1].
 
-Exemple de configuration pour le Port DNS 53
-![Vue de la liste des règles LAN après création (DNS, HTTP, HTTPS)](screenshots/02-liste-regles-lan.png)<img src="images/13.png" alt="Exemple Port 53" width="400">
+### Aperçu de la configuration
+![Vue de la liste des règles LAN après création](screenshots/02-liste-regles-lan.png)
+<img src="images/13.png" alt="Exemple Port 53" width="400">
+
 
 ## Exercice 2 — Bloquer l'accès du WLAN vers le LAN
 
