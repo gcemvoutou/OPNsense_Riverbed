@@ -53,7 +53,7 @@ Avant de configurer la règle de filtrage, l'interface doit être correctement a
 
 **Paramètres de la règle** :
 
-<img src="images/16.png" alt="Paramètres de la règle" width="400">
+<img src="images/16.png" alt="Paramètres de la règle" width="450">
 
 > ⚠ On bloque toujours le trafic indésirable sur l'interface d'entrée. Ici, c'est le WLAN qui initie le trafic : la règle intercepte donc les paquets dès leur arrivée sur cette interface, avant qu'ils ne puissent traverser le pare-feu.
 
@@ -63,7 +63,7 @@ Avant de configurer la règle de filtrage, l'interface doit être correctement a
 **Objectif** : permettre aux appareils du WLAN d'accéder à un serveur web précis (`192.168.10.100`) situé sur le LAN, sans remettre en cause le blocage global de l'exercice 2.
 
 **Paramètres de la règle** (placée **au-dessus** de la règle de blocage pour être évaluée en priorité) :
-<img src="images/17.png" alt="Paramètres de la règle Ex 3" width="400">
+<img src="images/17.png" alt="Paramètres de la règle Ex 3" width="450">
 
 > [!IMPORTANT]
 > Cibler une IP unique est indispensable : indiquer `LAN net` comme destination aurait ouvert l'accès à l'ensemble du réseau local et annulé la règle de blocage.
