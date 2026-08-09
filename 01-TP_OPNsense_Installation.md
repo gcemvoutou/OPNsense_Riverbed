@@ -111,7 +111,7 @@ Connexion à la console avec les identifiants par défaut pour accéder au menu 
 * **Login** : `root`
 * **Mot de passe** : `opnsense`
 
-**Assignation des interfaces (menu console, option 1)** :
+**5.1 Assignation des interfaces (menu console, option 1)** :
 ```
 Do you want to configure LAGGs now? [y/N]: n
 Do you want to configure VLANs now? [y/N]: n
@@ -124,19 +124,19 @@ Do you want to proceed? [y/N]: y
 > [!IMPORTANT]
 Ces configurations associent nos ports réseau physiques (`igb5` pour Internet et `igb4` pour le réseau local) tout en sautant les options avancées comme les VLANs pour aller au plus simple.
 
-### 5.3 Configuration des adresses IP (Option 2)
+### 5.2 Configuration des adresses IP (Option 2)
 Cette étape définit l'identité réseau et les protocoles de communication du pare-feu.
 
 **Configuration du WAN (Internet) :**
-* **IPv4/IPv6 via DHCP** : `y` (Permet au pare-feu d'obtenir automatiquement une adresse IP publique fournie par votre FAI).
-* **Activer interface web (HTTP)** : `y` (Le passage en HTTP évite les blocages liés aux certificats auto-signés lors de la première configuration).
+* **IPv4/IPv6 via DHCP** : `y` *(Permet au pare-feu d'obtenir automatiquement une adresse IP publique).*
+* **Activer interface web (HTTP)** : `y` *(Le passage en HTTP évite les blocages liés aux certificats auto-signés lors de la première configuration).*
 
 **Configuration du LAN (Réseau Local) :**
-* **IPv4 Statique** : `192.168.6.254` (Il est impératif que le pare-feu possède une IP fixe pour servir de passerelle stable aux machines du réseau).
-* **Masque (CIDR)** : `24` (Définit la portée du réseau local).
-* **Passerelle** : Laissée vide (Le pare-feu est lui-même la passerelle pour les clients LAN).
-* **Serveur DHCP** : `n` (Nous désactivons cette option en console pour la configurer plus finement via l'interface web par la suite).
-* **Restaurer accès GUI** : `y` (Applique les changements aux accès d'administration).
+* **IPv4 Statique** : `192.168.6.254` *(Il est impératif que le pare-feu possède une IP fixe pour servir de passerelle aux machines du réseau).*
+* **Masque (CIDR)** : `24` *(Définit la portée du réseau local)*.
+* **Passerelle** : Laissée vide *(Le pare-feu est lui-même la passerelle pour les clients LAN)*.
+* **Serveur DHCP** : `n` *(Nous désactivons cette option en console pour la configurer plus finement via l'interface web par la suite).*
+* **Restaurer accès GUI** : `y` *(Autorise l'accès d'administration via interface web).*
 
 > **[NOTE]** Une fois ces étapes validées, la console confirme la fin de la configuration. Vous pouvez désormais accéder à l'interface d'administration depuis votre navigateur via : `http://192.168.6.254`.
 <!-- 📸 Capture à insérer ici : terminal console listant les IP WAN/LAN confirmées -->
