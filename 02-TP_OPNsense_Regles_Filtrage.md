@@ -63,19 +63,11 @@ Avant de configurer la règle de filtrage, l'interface doit être correctement a
 **Objectif** : permettre aux appareils du WLAN d'accéder à un serveur web précis (`192.168.10.100`) situé sur le LAN, sans remettre en cause le blocage global de l'exercice 2.
 
 **Paramètres de la règle** (placée **au-dessus** de la règle de blocage pour être évaluée en priorité) :
-| Champ | Valeur |
-|---|---|
-| Action | `Pass` |
-| Interface | `WLAN` |
-| Protocole | `TCP` |
-| Source | `WLAN net` |
-| Destination | `192.168.10.100` (hôte unique, masque `/32`) |
-| Port destination | `80` (HTTP) ou `443` (HTTPS) |
+<img src="images/17.png" alt="Paramètres de la règle Ex 3" width="400">
 
+> [!IMPORTANT]
 > Cibler une IP unique est indispensable : indiquer `LAN net` comme destination aurait ouvert l'accès à l'ensemble du réseau local et annulé la règle de blocage.
 
-<!-- 📸 Capture à insérer ici : formulaire de la règle d'autorisation vers le serveur web -->
-![Règle d'autorisation WLAN vers le serveur web (hôte unique)](screenshots/04-regle-serveur-web.png)
 
 ## Exercice 4 — Autoriser l'accès à des imprimantes réseau depuis le WLAN
 
