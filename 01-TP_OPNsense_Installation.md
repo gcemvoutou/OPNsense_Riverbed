@@ -58,6 +58,8 @@ Puis configuration d'une session série dans **PuTTY** :
 <!-- 📸 Capture à insérer ici : fenêtre de configuration PuTTY (mode Serial, 115200 bauds) -->
 <img src="images/4.png" alt="Configuration de la session série dans PuTTY" width="400">, 
 
+---
+
 ### 3. Démarrage sur la clé USB
 
 #### 3.1 Accès au BIOS
@@ -69,7 +71,7 @@ Dans l'onglet **Boot**, modifier l'ordre pour placer la clé USB (SanDisk) en po
 
 <img src="images/5.png" alt="Sélection de la clé USB en priorité" width="500">
 
---
+---
 
 ### 4. Installation du système
 
@@ -77,6 +79,8 @@ Installation en format **ZFS** (GPT/UEFI Hybrid, configuration Stripe sans redon
 
 <!-- 📸 Capture à insérer ici : écran de progression de l'installation OPNsense -->
 ![Progression de l'installation OPNsense](screenshots/04-installation-zfs.png)
+
+---
 
 ### 5. Configuration initiale via la console
 
