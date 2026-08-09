@@ -37,6 +37,7 @@ Et gravure sur clé USB avec **Rufus** en appliquant les paramètres suivants :
 - Type de démarrage : Sélectionner l'image OPNsense téléchargée
 - Schéma de partition : MBR
 - Système de destination : BIOS (ou UEFI-CSM)
+```
 
 <!-- 📸 Capture à insérer ici : fenêtre Rufus pendant/avant la gravure de la clé USB -->
 
