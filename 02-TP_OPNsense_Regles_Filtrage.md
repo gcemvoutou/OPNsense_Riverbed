@@ -83,6 +83,11 @@ Puis création d'une règle unique sur l'interface WLAN ciblant cet alias comme 
 
 Cette approche simplifie la gestion et réduit le risque d'erreur en cas d'évolution du parc d'imprimantes.
 
+> [!NOTE]
+> **Pourquoi une source "WLAN network" et des ports sur "any" ?**
+> * **Source (`WLAN network`)** : On autorise l'ensemble du réseau Wi-Fi à initier la demande, évitant ainsi de configurer chaque poste un par un.
+> * **Ports (`any`)** : Les imprimantes utilisent des protocoles et des ports variables selon les constructeurs (port 9100 pour RAW, 631 pour IPP, etc.). La sécurité est ici garantie par la **destination** qui est strictement limitée aux adresses IP des imprimantes via l'alias, et non par le filtrage des ports.
+
 ## Résultat
 
 Un modèle de segmentation réseau fonctionnel : le WLAN est isolé du LAN par défaut, avec des exceptions ciblées et documentées (serveur web, imprimantes), conformément au principe du moindre privilège.
