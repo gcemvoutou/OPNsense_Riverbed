@@ -75,11 +75,7 @@ Avant de configurer la règle de filtrage, l'interface doit être correctement a
 
 Plutôt que dupliquer une règle par imprimante, création d'un **alias** (`Firewall → Aliases`) regroupant les deux adresses IP :
 
-| Champ de l'alias | Valeur |
-|---|---|
-| Nom | `Imprimantes_LAN` |
-| Type | `Host(s)` |
-| Contenu | `192.168.10.50`, `192.168.10.51` |
+<img src="images/18.png" alt="Création d'un Alias" width="450">
 
 Puis création d'une règle unique sur l'interface WLAN ciblant cet alias comme destination :
 
