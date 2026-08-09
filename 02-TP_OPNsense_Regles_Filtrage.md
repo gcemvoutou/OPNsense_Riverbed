@@ -39,6 +39,13 @@ La règle doit être créée sur l'interface **LAN** (`Firewall → Rules → LA
 
 Avant de créer la règle, l'interface WLAN doit être assignée dans OPNsense (`Interfaces → Assignments`), activée et renommée.
 
+Ajouter l'interface WLAN :
+<img src="images/14.png" alt="Exemple Port 53" width="400">
+
+Activer et renommer l'interface : 
+<img src="images/15.png" alt="Exemple Port 53" width="400">
+
+
 **Paramètres de la règle** :
 | Champ | Valeur |
 |---|---|
@@ -119,16 +126,3 @@ Un modèle de segmentation réseau fonctionnel : le WLAN est isolé du LAN par d
 
 ---
 
-## Récapitulatif des captures à préparer
-
-Crée un dossier `screenshots/` à côté de ce fichier, et nomme tes images **exactement** comme ci-dessous (les balises `![...]` sont déjà placées au bon endroit dans le texte ci-dessus) :
-
-| Nom de fichier exact | Contenu à capturer | Figure source du PDF |
-|---|---|---|
-| `02-liste-regles-lan.png` | Liste des règles LAN après création (DNS, HTTP, HTTPS) | Figure 4 |
-| `03-regle-blocage-wlan-lan.png` | Formulaire de la règle de blocage WLAN → LAN | Figure 6 |
-| `04-regle-serveur-web.png` | Formulaire de la règle d'autorisation vers le serveur web | Figure 7 |
-| `05-alias-imprimantes.png` | Formulaire de création de l'alias `Imprimantes_LAN` | Figure 8 |
-| `06-regle-wlan-imprimantes.png` | Formulaire de la règle WLAN → alias imprimantes | Figure 9 |
-
-Si tu veux aller vite, les **2 indispensables** sont `02` (le résultat concret) et `03` (le concept clé du projet : le blocage WLAN→LAN).
