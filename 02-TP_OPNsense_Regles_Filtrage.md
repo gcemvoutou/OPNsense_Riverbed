@@ -19,16 +19,16 @@ Dans OPNsense, les règles de filtrage sont évaluées **de haut en bas** sur l'
 
 ### Procédure de configuration
 La règle doit être créée sur l'interface **LAN** (`Firewall → Rules → LAN`) avec les paramètres suivants[cite: 1] :
-* **Action** : `Pass` (Autoriser)[cite: 1]
-* **Direction** : `in`[cite: 1]
-* **Source** : `LAN network`[cite: 1]
-* **Destination** : `any`[cite: 1]
-* **Port de destination** : `53` (TCP/UDP)[cite: 1]
+* **Action** : `Pass` (Autoriser)
+* **Direction** : `in`
+* **Source** : `LAN network`
+* **Destination** : `any`
+* **Port de destination** : `53` (TCP/UDP)
 
-> **Pourquoi ne pas utiliser `any` comme port ?** Cela autoriserait l'intégralité du trafic et annulerait toute politique de sécurité. En appliquant le principe du moindre privilège, on n'ouvre que ce qui est strictement nécessaire[cite: 1].
+> **Pourquoi ne pas utiliser `any` comme port ?** Cela autoriserait l'intégralité du trafic et annulerait toute politique de sécurité. En appliquant le principe du moindre privilège, on n'ouvre que ce qui est strictement nécessaire.
 
 ### Aperçu de la configuration
-![Vue de la liste des règles LAN après création](screenshots/02-liste-regles-lan.png)
+
 <img src="images/13.png" alt="Exemple Port 53" width="400">
 
 
