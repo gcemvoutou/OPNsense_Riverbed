@@ -26,7 +26,7 @@ Ce projet consiste à transformer une appliance réseau **Riverbed** (matériel 
 
 ### 1. Préparation de la clé USB bootable
 
-Téléchargement de l'image d'installation OPNsense au format série (nécessaire car l'appliance ne dispose pas de sortie vidéo, uniquement d'un accès console série) et gravure sur clé USB avec **Rufus** (schéma de partition MBR, mode BIOS/UEFI-CSM).
+Téléchargement de l'image d'installation OPNsense au format série à ce lien https://opnsense.org/download/ (nécessaire car l'appliance ne dispose pas de sortie vidéo, uniquement d'un accès console série) et gravure sur clé USB avec **Rufus** (schéma de partition MBR, mode BIOS/UEFI-CSM).
 
 <!-- 📸 Capture à insérer ici : fenêtre Rufus pendant/avant la gravure de la clé USB -->
 ![Configuration Rufus pour la gravure de la clé USB](screenshots/01-rufus-gravure.png)
