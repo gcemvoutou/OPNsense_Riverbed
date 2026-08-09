@@ -65,9 +65,8 @@ Puis configuration d'une session série dans **PuTTY** :
 * Le redémarrer et appuyer immédiatement sur la touche **Suppr** (ou Del) pour accéder au BIOS (Aptio Setup Utility).
 
 #### 3.2 Modification de l'ordre de démarrage
-Accès au BIOS (Aptio Setup Utility) de l'appliance et modification de l'ordre de démarrage pour placer la clé USB en priorité, afin de lancer l'installateur OPNsense.
+Dans l'onglet **Boot**, modifier l'ordre pour placer la clé USB (SanDisk) en position **Boot Option #1** pour lancer l'installateur OPNsense au redémarrage suivant.
 
-<!-- 📸 Capture à insérer ici : écran BIOS avec l'ordre de démarrage (clé USB en premier) -->
 <img src="images/5.png" alt="Sélection de la clé USB en priorité" width="500">
 
 ---
