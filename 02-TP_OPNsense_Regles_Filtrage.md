@@ -37,13 +37,19 @@ La règle doit être créée sur l'interface **LAN** (`Firewall → Rules → LA
 
 **Objectif** : isoler totalement le réseau Wi-Fi du réseau filaire, pour empêcher les appareils WLAN d'accéder aux ressources internes (serveurs, postes, imprimantes).
 
-Avant de créer la règle, l'interface WLAN doit être assignée dans OPNsense (`Interfaces → Assignments`), activée et renommée.
+### 1. Préparation de l'interface WLAN
+Avant de configurer la règle de filtrage, l'interface doit être correctement assignée et activée dans OPNsense.
 
-Ajouter l'interface WLAN :
-<img src="images/14.png" alt="Exemple Port 53" width="400">
+* **Assignation** : Allez dans `Interfaces → Assignments` pour ajouter la nouvelle interface réseau.
+<img src="images/14.png" alt="Ajouter interface" width="400">
 
-Activer et renommer l'interface : 
-<img src="images/15.png" alt="Exemple Port 53" width="400">
+* **Activation et renommage** : 
+    1. Cliquez sur le nom de la nouvelle interface (généralement `OPT1`).
+    2. Cochez la case **Enable Interface**.
+    3. Dans le champ **Description**, remplacez `OPT1` par `WLAN`.
+    4. Cliquez sur **Save**, puis sur **Apply changes**.
+       
+<img src="images/15.png" alt="Activer et renommer" width="400">
 
 
 **Paramètres de la règle** :
