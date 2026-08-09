@@ -56,7 +56,7 @@ Puis configuration d'une session série dans **PuTTY** :
 - Speed : `115200` bauds
 
 <!-- 📸 Capture à insérer ici : fenêtre de configuration PuTTY (mode Serial, 115200 bauds) -->
-<img src="images/3.png" alt="Configuration de la session série dans PuTTY" width="400">, 
+<img src="images/4.png" alt="Configuration de la session série dans PuTTY" width="400">, 
 
 ### 3. Démarrage sur la clé USB
 
