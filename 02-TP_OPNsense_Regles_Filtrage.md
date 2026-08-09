@@ -79,15 +79,9 @@ Plutôt que dupliquer une règle par imprimante, création d'un **alias** (`Fire
 
 Puis création d'une règle unique sur l'interface WLAN ciblant cet alias comme destination :
 
-<img src="images/19.png" alt="Regles" width="450">
+<img src="images/19.png" alt="Regles" width="490">
 
 Cette approche simplifie la gestion et réduit le risque d'erreur en cas d'évolution du parc d'imprimantes.
-
-<!-- 📸 Capture à insérer ici : formulaire de création de l'alias Imprimantes_LAN -->
-![Configuration de l'alias Imprimantes_LAN](screenshots/05-alias-imprimantes.png)
-
-<!-- 📸 Capture à insérer ici : formulaire de la règle WLAN vers l'alias imprimantes -->
-![Règle d'autorisation WLAN vers l'alias Imprimantes_LAN](screenshots/06-regle-wlan-imprimantes.png)
 
 ## Résultat
 
