@@ -70,20 +70,7 @@ Depuis un poste connecté au réseau LAN, connexion via **PuTTY** en protocole S
 
 ## Compétences mobilisées
 
-- Gestion de sauvegardes système (export/import de configuration XML)
-- Administration à distance sécurisée en SSH
-- Configuration de services d'accès distant (PuTTY, authentification)
+- ![Sauvegarde](https://img.shields.io/badge/Sauvegarde-XML_Export%2FImport-blue?style=flat-square) Gestion de sauvegardes système (export/import de configuration XML)
+- ![Sécurité](https://img.shields.io/badge/Sécurité-SSH_Distant-green?style=flat-square) Administration à distance sécurisée en SSH
+- ![Services](https://img.shields.io/badge/Services-Accès_Distant-orange?style=flat-square) Configuration de services d'accès distant (PuTTY, authentification)
 
----
-
-## Récapitulatif des captures à préparer
-
-Crée un dossier `screenshots/` à côté de ce fichier, et nomme tes images **exactement** comme ci-dessous (les balises `![...]` sont déjà placées au bon endroit dans le texte ci-dessus) :
-
-| Nom de fichier exact | Contenu à capturer | Figure source du PDF |
-|---|---|---|
-| `01-page-sauvegarde.png` | Page de sauvegarde OPNsense avec le bouton de téléchargement | Figure 2 |
-| `03-parametres-ssh.png` | Section SSH des paramètres d'administration (options cochées) | Figure 12 |
-| `04-connexion-ssh-reussie.png` | Terminal PuTTY connecté en SSH avec la bannière OPNsense | Figure 15 |
-
-Les **3 sont utiles** ici (le document est court) — mais si tu dois n'en garder qu'une, prends `04` : c'est la preuve visuelle que ça fonctionne.
