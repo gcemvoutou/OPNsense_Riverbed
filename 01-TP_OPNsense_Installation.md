@@ -30,7 +30,13 @@ Téléchargement de l'image d'installation OPNsense au format série à ce lien 
 
 <img src="images/1.png" alt="Installation Opensense" width="500">
 
-Et gravure sur clé USB avec **Rufus** (schéma de partition MBR, mode BIOS/UEFI-CSM).
+Et gravure sur clé USB avec **Rufus** en appliquant les paramètres suivants :
+
+```text
+- Périphérique : Sélectionner la clé USB cible
+- Type de démarrage : Sélectionner l'image OPNsense téléchargée
+- Schéma de partition : MBR
+- Système de destination : BIOS (ou UEFI-CSM)
 
 <!-- 📸 Capture à insérer ici : fenêtre Rufus pendant/avant la gravure de la clé USB -->
 
