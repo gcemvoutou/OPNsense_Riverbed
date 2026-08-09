@@ -68,7 +68,7 @@ Puis configuration d'une session série dans **PuTTY** :
 Accès au BIOS (Aptio Setup Utility) de l'appliance et modification de l'ordre de démarrage pour placer la clé USB en priorité, afin de lancer l'installateur OPNsense.
 
 <!-- 📸 Capture à insérer ici : écran BIOS avec l'ordre de démarrage (clé USB en premier) -->
-![Sélection de la clé USB en priorité de démarrage dans le BIOS](screenshots/03-bios-boot-order.png)
+<img src="images/5.png" alt="Sélection de la clé USB en priorité" width="500">
 
 ---
 
