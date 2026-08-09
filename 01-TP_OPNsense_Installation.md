@@ -28,7 +28,7 @@ Ce projet consiste à transformer une appliance réseau **Riverbed** (matériel 
 
 Téléchargement de l'image d'installation OPNsense au format série à ce lien https://opnsense.org/download/ (nécessaire car l'appliance ne dispose pas de sortie vidéo, uniquement d'un accès console série) 
 
-<img src="images/1.png" alt="Installation Opensense" width="400">
+<img src="images/1.png" alt="Installation Opensense" width="500">
 
 Et gravure sur clé USB avec **Rufus** (schéma de partition MBR, mode BIOS/UEFI-CSM).
 
