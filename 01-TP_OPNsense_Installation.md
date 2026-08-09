@@ -150,7 +150,7 @@ Restore web GUI access defaults: y
 >[NOTE]
 > Une fois ces étapes validées, la console confirme la fin de la configuration. On peut désormais accéder à l'interface d'administration depuis notre navigateur via : `http://192.168.6.254`.
 
-<img src="images/9.png" alt="Confirmation des adresses IP configurées en console (WAN + LAN)" width="400">
+<img src="images/9_bis.png" alt="Confirmation des adresses IP configurées en console (WAN + LAN)" width="400">
 
 ### 6. Accès à l'interface web
 
