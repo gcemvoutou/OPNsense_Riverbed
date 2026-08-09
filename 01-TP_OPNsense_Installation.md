@@ -47,7 +47,7 @@ Et gravure sur clé USB avec **Rufus** en appliquant les paramètres suivants :
 
 Identification du port COM associé à la clé USB via le Gestionnaire de périphériques Windows.
 
-<img src="images/3.png" alt="Gestionnaire périphérique" width="400">, 
+<img src="images/3_bis.png" alt="Gestionnaire périphérique" width="400">, 
 
 Puis configuration d'une session série dans **PuTTY** :
 
