@@ -79,14 +79,7 @@ Plutôt que dupliquer une règle par imprimante, création d'un **alias** (`Fire
 
 Puis création d'une règle unique sur l'interface WLAN ciblant cet alias comme destination :
 
-| Champ de la règle | Valeur |
-|---|---|
-| Action | `Pass` |
-| Interface | `WLAN` |
-| Protocole | `TCP` (port 9100 ou IPP pour l'impression) |
-| Source | `WLAN net` |
-| Destination | `Imprimantes_LAN` (alias) |
-| Port destination | `any` |
+<img src="images/19.png" alt="Regles" width="450">
 
 Cette approche simplifie la gestion et réduit le risque d'erreur en cas d'évolution du parc d'imprimantes.
 
