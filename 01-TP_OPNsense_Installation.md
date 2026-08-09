@@ -156,10 +156,20 @@ Restore web GUI access defaults: y
 
 ### 6. Accès à l'interface web
 
-Configuration manuelle de la carte réseau du PC de test (`192.168.6.2/24`, passerelle `192.168.6.254`), vérification de la connectivité par `ping`, puis connexion à l'interface d'administration via `http://192.168.6.254`.
+* **Étape 1 : Configuration du PC de test**
+  * Configurer manuellement la carte réseau avec une adresse IP fixe : `192.168.6.2/24`
+  * Définir la passerelle sur l'adresse du pare-feu : `192.168.6.254`
 
-<!-- 📸 Capture à insérer ici : tableau de bord OPNsense après connexion réussie -->
-![Tableau de bord OPNsense après connexion réussie](screenshots/08-dashboard-final.png)
+* **Étape 2 : Vérification de la connectivité**
+  * Tester la liaison réseau à l'aide d'un `ping` vers le pare-feu.
+
+<img src="images/10.png" alt="Ping" width="400">
+
+* **Étape 3 : Connexion à l'administration**
+  * Ouvrir le navigateur et se connecter à l'interface d'administration via : `http://192.168.6.254`
+
+<img src="images/11.png" alt="Tableau de bord OPNsense après connexion réussie" width="400">
+
 
 ## Résultat
 
