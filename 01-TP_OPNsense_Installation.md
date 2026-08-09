@@ -128,9 +128,12 @@ Ces configurations associent nos ports réseau physiques (`igb5` pour Internet e
 Cette étape définit l'identité réseau et les protocoles de communication du pare-feu.
 
 ```text
+# Configuration WAN
 IPv4 via DHCP: y
 IPv6 via DHCP6: y
 Reconfigure web GUI HTTP access: y
+
+# Configuration LAN
 IPv4 address: 192.168.6.254
 IPv4 subnet bit count: 24
 IPv4 upstream gateway: [Entrée]
