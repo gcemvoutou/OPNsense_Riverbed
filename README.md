@@ -8,9 +8,9 @@ Ce projet pratique consistait à transformer une appliance réseau **Riverbed** 
 
 ## Objectifs
 
-- Installer OPNsense sur une appliance dépourvue de sortie vidéo (accès console série uniquement)
-- Configurer une segmentation réseau LAN / WLAN maîtrisée, avec des règles de filtrage précises
-- Sécuriser l'exploitation du pare-feu via un mécanisme de sauvegarde/restauration et un accès distant en SSH
+- 📄 [01. Installer OPNsense sur une appliance sans sortie vidéo (accès console série)](./01-TP_OPNsense_Installation.md)
+- 📄 [02. Configurer une segmentation réseau LAN / WLAN et des règles de filtrage](./02-TP_OPNsense_Regles_Filtrage.md)
+- 📄 [03. Sécuriser l'exploitation (sauvegarde/restauration et accès distant SSH)](./03-TP_OPNsense_Sauvegarde_SSH.md)
 
 ## Matériel et prérequis
 
