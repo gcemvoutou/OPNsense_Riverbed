@@ -184,7 +184,7 @@ Le pare-feu est opérationnel :
 
 ## Compétences mobilisées
 
-- Administration système en ligne de commande (console série)
-- Installation et configuration d'un système FreeBSD/OPNsense
-- Configuration réseau (interfaces, adressage IP statique/DHCP)
-- Utilisation d'outils d'administration à distance (PuTTY, Rufus)
+- ![Administration système](https://img.shields.io/badge/Admin_Système-CLI-blue?style=flat-square&logo=linux) Administration système en ligne de commande (console série)
+- ![FreeBSD/OPNsense](https://img.shields.io/badge/OPNsense-FreeBSD-orange?style=flat-square&logo=opnsense) Installation et configuration d'un système FreeBSD/OPNsense
+- ![Configuration réseau](https://img.shields.io/badge/Réseau-IP_%2F_DHCP-green?style=flat-square&logo=cisco) Configuration réseau (interfaces, adressage IP statique/DHCP)
+- ![Outils](https://img.shields.io/badge/Outils-PuTTY_%2F_Rufus-informational?style=flat-square) Utilisation d'outils d'administration à distance (PuTTY, Rufus)
