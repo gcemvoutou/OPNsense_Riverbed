@@ -52,7 +52,7 @@ Identification du port COM associé à la clé USB via le Gestionnaire de périp
 Puis configuration d'une session série dans **PuTTY** :
 
 - Connection type : `Serial`
-- Serial line : `COM4` (port identifié précédemment)
+- Serial line : `COM4` *(port identifié précédemment)*
 - Speed : `115200` bauds
 
 <!-- 📸 Capture à insérer ici : fenêtre de configuration PuTTY (mode Serial, 115200 bauds) -->
