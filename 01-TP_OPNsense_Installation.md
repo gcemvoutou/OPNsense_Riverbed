@@ -168,7 +168,8 @@ Restore web GUI access defaults: y
 * **Étape 3 : Connexion à l'administration**
   * Ouvrir le navigateur et se connecter à l'interface d'administration via : `http://192.168.6.254`
 
-   <img src="images/11.png" alt="Tableau de bord OPNsense après connexion réussie" width="400">
+   <img src="images/11.png" alt="Tableau de bord OPNsense après connexion réussie" width="350">
+   
    <img src="images/12.png" alt="Tableau de bord OPNsense après connexion réussie" width="400">
 
 
