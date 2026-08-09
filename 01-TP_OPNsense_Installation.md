@@ -78,10 +78,24 @@ Puis Aller dans l'onglet **Save & Exit**, sélectionner **Save Changes and Exit*
 ### 4. Installation du système
 
 Installation en format **ZFS** (GPT/UEFI Hybrid, configuration Stripe sans redondance) sur le disque interne de l'appliance, avec destruction du contenu existant.
+### Étapes de configuration
+Sélectionnez les options suivantes dans l'installeur :
 
-<!-- 📸 Capture à insérer ici : écran de progression de l'installation OPNsense -->
-![Progression de l'installation OPNsense](screenshots/04-installation-zfs.png)
+1. **Choix du type d'installation :** Sélectionnez `Install (ZFS) - ZFS GPT/UEFI Hybrid`.
+   <img src="images/6.png" alt="Choix du type de virtualisation ZFS (sans redondance" width="500">
 
+2. **Configuration du ZFS :** Laissez l'option par défaut sur `Stripe - No Redundancy`.
+
+3. **Sélection du disque :** Cochez la case correspondant au disque interne `ada0`.
+    <img src="images/7.png" alt="Sélection du disque ada0" width="500">
+
+4. **Confirmation finale :** Lorsque l'avertissement "Last Chance!" s'affiche, sélectionnez `YES` pour confirmer l'effacement du disque et démarrer l'installation.
+    <img src="images/8.png" alt="Confirmation de la destruction du contenu du disque" width="500">
+
+### Finalisation
+Une fois le processus lancé, attendez la fin de la copie des fichiers. L'installeur vous demandera ensuite de redémarrer le système pour finaliser l'installation.
+
+> **Note :** N'oubliez pas de retirer la clé USB d'installation après le premier redémarrage pour permettre au système de démarrer sur le nouveau disque interne.
 ---
 
 ### 5. Configuration initiale via la console
