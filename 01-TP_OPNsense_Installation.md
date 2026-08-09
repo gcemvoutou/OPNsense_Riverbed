@@ -70,7 +70,9 @@ Puis configuration d'une session série dans **PuTTY** :
 Dans l'onglet **Boot**, modifier l'ordre pour placer la clé USB (SanDisk) en position **Boot Option #1** pour lancer l'installateur OPNsense au redémarrage suivant.
 
 <img src="images/5.png" alt="Sélection de la clé USB en priorité" width="500">
+
 Puis Aller dans l'onglet **Save & Exit**, sélectionner **Save Changes and Exit** et valider. L'appareil redémarre alors sur la clé USB.
+
 ---
 
 ### 4. Installation du système
