@@ -52,21 +52,11 @@ Avant de configurer la règle de filtrage, l'interface doit être correctement a
 
 
 **Paramètres de la règle** :
-| Champ | Valeur |
-|---|---|
-| Action | `Block` |
-| Interface | `WLAN` |
-| Direction | `in` |
-| Protocole | `any` |
-| Source | `WLAN net` |
-| Destination | `LAN net` |
-| Port destination | `any` |
-| Description | `Interdire l'accès du WLAN vers le LAN` |
+
+<img src="images/16.png" alt="Paramètres de la règle" width="400">
 
 > ⚠ On bloque toujours le trafic indésirable sur l'interface d'entrée. Ici, c'est le WLAN qui initie le trafic : la règle intercepte donc les paquets dès leur arrivée sur cette interface, avant qu'ils ne puissent traverser le pare-feu.
 
-<!-- 📸 Capture à insérer ici : formulaire de la règle de blocage WLAN vers LAN -->
-![Configuration de la règle de blocage WLAN vers LAN](screenshots/03-regle-blocage-wlan-lan.png)
 
 ## Exercice 3 — Autoriser l'accès à un serveur web spécifique depuis le WLAN
 
