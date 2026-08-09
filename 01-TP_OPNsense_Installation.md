@@ -98,7 +98,8 @@ Sélectionnez les options suivantes dans l'installeur :
 ### Finalisation
 Une fois le processus lancé, attendez la fin de la copie des fichiers. L'installeur vous demandera ensuite de redémarrer le système pour finaliser l'installation.
 
-> **Note :** N'oubliez pas de retirer la clé USB d'installation après le premier redémarrage pour permettre au système de démarrer sur le nouveau disque interne.
+> [!NOTE]
+> Retirer la clé USB d'installation après le premier redémarrage pour que le système démarre sur le nouveau disque interne.
 ---
 
 ### 5. Configuration initiale via la console
