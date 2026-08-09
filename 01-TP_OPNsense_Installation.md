@@ -70,6 +70,8 @@ Accès au BIOS (Aptio Setup Utility) de l'appliance et modification de l'ordre d
 <!-- 📸 Capture à insérer ici : écran BIOS avec l'ordre de démarrage (clé USB en premier) -->
 ![Sélection de la clé USB en priorité de démarrage dans le BIOS](screenshots/03-bios-boot-order.png)
 
+---
+
 ### 4. Installation du système
 
 Installation en format **ZFS** (GPT/UEFI Hybrid, configuration Stripe sans redondance) sur le disque interne de l'appliance, avec destruction du contenu existant.
