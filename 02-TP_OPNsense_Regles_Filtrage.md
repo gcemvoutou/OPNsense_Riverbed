@@ -93,11 +93,9 @@ Cette approche simplifie la gestion et réduit le risque d'erreur en cas d'évol
 Un modèle de segmentation réseau fonctionnel : le WLAN est isolé du LAN par défaut, avec des exceptions ciblées et documentées (serveur web, imprimantes), conformément au principe du moindre privilège.
 
 ## Compétences mobilisées
-
-- Configuration de règles de pare-feu (Firewall Rules) sous OPNsense
-- Compréhension de la logique d'évaluation séquentielle des règles
-- Segmentation réseau et isolation Wi-Fi / filaire
-- Création et utilisation d'alias pour la gestion d'IP multiples
-
+- ![Pare-feu](https://img.shields.io/badge/Firewall-OPNsense-orange?style=flat-square) Configuration de règles de pare-feu (Firewall Rules) sous OPNsense
+- ![Sécurité](https://img.shields.io/badge/Sécurité-Logique_Séquentielle-red?style=flat-square) Compréhension de la logique d'évaluation séquentielle des règles
+- ![Réseau](https://img.shields.io/badge/Réseau-Segmentation_WLAN%2FLAN-green?style=flat-square) Segmentation réseau et isolation Wi-Fi / filaire
+- ![Administration](https://img.shields.io/badge/Admin-Alias_IP-blue?style=flat-square) Création et utilisation d'alias pour la gestion d'IP multiples
 ---
 
