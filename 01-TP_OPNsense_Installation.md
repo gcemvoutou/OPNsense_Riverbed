@@ -82,15 +82,15 @@ Installation en format **ZFS** (GPT/UEFI Hybrid, configuration Stripe sans redon
 Sélectionnez les options suivantes dans l'installeur :
 
 1. **Choix du type d'installation :** Sélectionnez `Install (ZFS) - ZFS GPT/UEFI Hybrid`.
-   <img src="images/6.png" alt="Choix du type de virtualisation ZFS (sans redondance" width="500">
+   <img src="images/6.png" alt="Choix du type de virtualisation ZFS (sans redondance" width="400">
 
-2. **Configuration du ZFS :** Laissez l'option par défaut sur `Stripe - No Redundancy`.
+> **Note :** : **Configuration du ZFS :** Laissez l'option par défaut sur `Stripe - No Redundancy`.
 
 3. **Sélection du disque :** Cochez la case correspondant au disque interne `ada0`.
-    <img src="images/7.png" alt="Sélection du disque ada0" width="500">
+    <img src="images/7.png" alt="Sélection du disque ada0" width="400">
 
 4. **Confirmation finale :** Lorsque l'avertissement "Last Chance!" s'affiche, sélectionnez `YES` pour confirmer l'effacement du disque et démarrer l'installation.
-    <img src="images/8.png" alt="Confirmation de la destruction du contenu du disque" width="500">
+    <img src="images/8.png" alt="Confirmation de la destruction du contenu du disque" width="400">
 
 ### Finalisation
 Une fois le processus lancé, attendez la fin de la copie des fichiers. L'installeur vous demandera ensuite de redémarrer le système pour finaliser l'installation.
