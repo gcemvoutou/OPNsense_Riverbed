@@ -33,7 +33,8 @@ Téléchargement de l'image d'installation OPNsense au format série à ce lien 
 Et gravure sur clé USB avec **Rufus** (schéma de partition MBR, mode BIOS/UEFI-CSM).
 
 <!-- 📸 Capture à insérer ici : fenêtre Rufus pendant/avant la gravure de la clé USB -->
-![Configuration Rufus pour la gravure de la clé USB](screenshots/01-rufus-gravure.png)
+
+![Config Rufus](images/2.png)
 
 ### 2. Connexion console au Riverbed
 
