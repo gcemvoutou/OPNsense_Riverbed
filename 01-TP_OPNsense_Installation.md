@@ -23,6 +23,7 @@ Ce projet consiste à transformer une appliance réseau **Riverbed** (matériel 
 - Image ISO d'OPNsense (version amd64, format série)
 
 ## Déroulé
+---
 
 ### 1. Préparation de la clé USB bootable
 
@@ -42,6 +43,8 @@ Et gravure sur clé USB avec **Rufus** en appliquant les paramètres suivants :
 <!-- 📸 Capture à insérer ici : fenêtre Rufus pendant/avant la gravure de la clé USB -->
 
 <img src="images/2.png" alt="Config Rufus" width="400">
+
+---
 
 ### 2. Connexion console au Riverbed
 
@@ -179,10 +182,6 @@ Le pare-feu est opérationnel :
 - Interface WAN (`igb5`) : adresse DHCP attribuée automatiquement
 - Interface LAN (`igb4`) : adresse statique `192.168.6.254/24`
 - Interface web accessible depuis le réseau LAN
-
-## Difficultés rencontrées
-
-L'absence de sortie vidéo sur l'appliance Riverbed impose de travailler exclusivement en ligne de commande via une console série — une contrainte formatrice pour se familiariser avec l'administration bas niveau d'un équipement réseau, sans interface graphique.
 
 ## Compétences mobilisées
 
