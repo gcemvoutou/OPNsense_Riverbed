@@ -69,7 +69,7 @@ Dans l'onglet **Boot**, modifier l'ordre pour placer la clé USB (SanDisk) en po
 
 <img src="images/5.png" alt="Sélection de la clé USB en priorité" width="500">
 
----
+--
 
 ### 4. Installation du système
 
