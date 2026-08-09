@@ -60,6 +60,11 @@ Puis configuration d'une session série dans **PuTTY** :
 
 ### 3. Démarrage sur la clé USB
 
+#### 3.1 Accès au BIOS
+* Éteindre l'appliance Riverbed.
+* Le redémarrer et appuyer immédiatement sur la touche **Suppr** (ou Del) pour accéder au BIOS (Aptio Setup Utility).
+
+#### 3.2 Modification de l'ordre de démarrage
 Accès au BIOS (Aptio Setup Utility) de l'appliance et modification de l'ordre de démarrage pour placer la clé USB en priorité, afin de lancer l'installateur OPNsense.
 
 <!-- 📸 Capture à insérer ici : écran BIOS avec l'ordre de démarrage (clé USB en premier) -->
