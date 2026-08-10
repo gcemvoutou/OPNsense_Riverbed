@@ -26,7 +26,7 @@ Procédure : `Système → Configuration → Sauvegardes`, section **Télécharg
 > *Voici les configurations effectives :*
  <img src="images/20.png" alt="Configuration complete" width="600">
 
-Le fichier obtenu (`config-<nom-du-pare-feu>-<date>.xml`) décrit chaque paramètre du pare-feu sous forme de balises et doit être conservé précieusement.
+Le fichier obtenu (`config-<nom-du-pare-feu>-<date>.xml`) ci-dessous décrit chaque paramètre du pare-feu sous forme de balises et doit être conservé précieusement.
 
 <!-- 📸 Capture à insérer ici : page de sauvegarde OPNsense avec le bouton de téléchargement -->
 <img src="images/21.png" alt="[Page de sauvegarde" width="600">
