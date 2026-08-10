@@ -24,7 +24,7 @@ Procédure : `Système → Configuration → Sauvegardes`, section **Télécharg
 
 > [!NOTE]
 > *Voici les configurations effectives :*
- <img src="images/20.png" alt="Configuration complete" width="450">
+ <img src="images/20.png" alt="Configuration complete" width="500">
 
 Le fichier obtenu (`config-<nom-du-pare-feu>-<date>.xml`) décrit chaque paramètre du pare-feu sous forme de balises et doit être conservé précieusement.
 
