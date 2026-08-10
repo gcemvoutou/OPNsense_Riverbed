@@ -28,7 +28,6 @@ Procédure : `Système → Configuration → Sauvegardes`, section **Télécharg
 
 Le fichier obtenu (`config-<nom-du-pare-feu>-<date>.xml`) ci-dessous décrit chaque paramètre du pare-feu sous forme de balises et doit être conservé précieusement.
 
-<!-- 📸 Capture à insérer ici : page de sauvegarde OPNsense avec le bouton de téléchargement -->
 <img src="images/21.png" alt="[Page de sauvegarde" width="600">
 
 ## 2. Restaurer la configuration
@@ -38,7 +37,9 @@ En cas d'erreur de manipulation ou de besoin de revenir à un état antérieur, 
 - Sélection du fichier `.xml` via **Choisir un fichier**
 - Options cochées par défaut : `Redémarrer après une restauration réalisée avec succès`, `Exclure les paramètres de la console de l'importation`, `Effacer (complet) l'historique de la configuration locale`
 - Clic sur **Restaurer la configuration**
-
+  
+ <img src="images/22.png" alt="Restauration de la configuration complète" width="600">
+ 
 > **Attention** : le pare-feu redémarre automatiquement pour appliquer la configuration restaurée. Il faut patienter 2 à 3 minutes avant que l'interface web soit de nouveau accessible.
 
 ## 3. Activer et accéder à OPNsense en SSH
