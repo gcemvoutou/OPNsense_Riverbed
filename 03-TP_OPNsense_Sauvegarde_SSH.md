@@ -38,7 +38,7 @@ En cas d'erreur de manipulation ou de besoin de revenir à un état antérieur, 
 - Options cochées par défaut : `Redémarrer après une restauration réalisée avec succès`, `Exclure les paramètres de la console de l'importation`, `Effacer (complet) l'historique de la configuration locale`
 - Clic sur **Restaurer la configuration**
   
- <img src="images/22.png" alt="Restauration de la configuration complète" width="600">
+ <img src="images/22.png" alt="Restauration de la configuration complète" width="400">
  
 > **Attention** : le pare-feu redémarre automatiquement pour appliquer la configuration restaurée. Il faut patienter 2 à 3 minutes avant que l'interface web soit de nouveau accessible.
 
