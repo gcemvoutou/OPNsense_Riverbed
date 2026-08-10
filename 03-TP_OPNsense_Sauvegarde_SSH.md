@@ -52,21 +52,27 @@ Dans `Système → Paramètres → Administration`, section **Secure Shell (SSH)
 
 | Champ | Valeur |
 |---|---|
-| Serveur shell sécurisé | Activé |
-| Connexion root | Autorisée (indispensable pour se connecter avec le compte `root`) |
-| Méthode d'authentification | Connexions avec mot de passe autorisées |
+| Serveur shell sécurisé | Activé *(3)*|
+| Connexion root | Autorisée (indispensable pour se connecter avec le compte `root`) *(4)* |
+| Méthode d'authentification | Connexions avec mot de passe autorisées *(4)* |
 | Port SSH | `22` |
 | Interfaces d'écoute | `Tout (recommandé)` |
 
-<!-- 📸 Capture à insérer ici : section SSH des paramètres d'administration (options cochées) -->
-![Paramètres du service Secure Shell activés](screenshots/03-parametres-ssh.png)
+ <img src="images/23.png" alt="Paramètres du service Secure Shell activés" width="350">
 
 ### 3.2 Connexion depuis un poste client (PuTTY)
 
-Depuis un poste connecté au réseau LAN, connexion via **PuTTY** en protocole SSH sur le port 22, à l'adresse `192.168.6.254`. Après acceptation de l'empreinte du serveur (première connexion) et authentification avec le compte `root`, la bannière d'accueil d'OPNsense confirme l'accès, accompagnée d'un récapitulatif de l'état des interfaces réseau (LAN, WAN, WLAN) et des empreintes de clés SSH du serveur.
+Depuis un poste connecté au réseau LAN, connexion via **PuTTY** en protocole SSH sur le port 22, à l'adresse `192.168.6.254`. 
 
-<!-- 📸 Capture à insérer ici : terminal PuTTY connecté en SSH avec la bannière OPNsense -->
-![Connexion SSH établie avec succès sur OPNsense](screenshots/04-connexion-ssh-reussie.png)
+ <img src="images/24.png" alt="Connexion PuTTY" width="350">
+ 
+Après acceptation de l'empreinte du serveur (première connexion) et authentification avec le compte `root`.
+
+<img src="images/25.png" alt="Connexion avec root en SSH" width="350">
+
+La bannière d'accueil d'OPNsense confirme l'accès, accompagnée d'un récapitulatif de l'état des interfaces réseau (LAN, WAN, WLAN) et des empreintes de clés SSH du serveur.
+
+<img src="images/26.png" alt="Connexion SSH établie avec succès sur OPNsense" width="350">
 
 ## Résultat
 
