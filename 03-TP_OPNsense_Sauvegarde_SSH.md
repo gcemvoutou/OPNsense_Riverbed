@@ -68,11 +68,11 @@ Depuis un poste connecté au réseau LAN, connexion via **PuTTY** en protocole S
  
 Après acceptation de l'empreinte du serveur (première connexion) et authentification avec le compte `root`.
 
-<img src="images/25.png" alt="Connexion avec root en SSH" width="250">
+<img src="images/25.png" alt="Connexion avec root en SSH" width="200">
 
 La bannière d'accueil d'OPNsense confirme l'accès, accompagnée d'un récapitulatif de l'état des interfaces réseau (LAN, WAN, WLAN) et des empreintes de clés SSH du serveur.
 
-<img src="images/26.png" alt="Connexion SSH établie avec succès sur OPNsense" width="400">
+<img src="images/26.png" alt="Connexion SSH établie avec succès sur OPNsense" width="450">
 
 ## Résultat
 
